@@ -1,11 +1,11 @@
-# Odeus
+# Jaded
 
-Odeus is a small Python utility for creating dated Git commits in a repository
+Jaded is a small Python utility for creating dated Git commits in a repository
 you own or are authorized to modify. It appends a line to a file, creates
 commits with dates from the previous year, and pushes them to that repository's
 configured remote.
 
-The public `odeus` repository contains the tool. Each user supplies a separate
+The public `Jaded` repository contains the tool. Each user supplies a separate
 local clone of their own target repository when the program runs.
 
 ## Requirements
@@ -20,8 +20,8 @@ local clone of their own target repository when the program runs.
 Clone this repository:
 
 ```bash
-git clone https://github.com/vatsalkoriya/odeus.git
-cd odeus
+git clone https://github.com/OptimumTurf/Jaded.git
+cd jaded
 ```
 
 ## Prepare your target repository
@@ -36,15 +36,15 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 For example:
 
 ```bash
-git clone https://github.com/vatsalkoriya/odeus-trial-auto.git
+git clone https://github.com/OptimumTurf/Jaded.git
 ```
 
 Make sure Git authentication works and that the target repository has a
 configured `origin` remote.
 
-## Run Odeus
+## Run Jaded
 
-From the `odeus` folder, run:
+From the `Jaded` folder, run:
 
 ```bash
 python main.py
